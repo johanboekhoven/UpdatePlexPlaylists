@@ -17,7 +17,7 @@ https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-ple
 ## Installation
 Run in VS Code
 - Make sure requirements are met
-- Run `poetry init`
+- Run `poetry update`
 - Run `poetry shell`
 - Run pytest to check helpers
 - Open `UpdatePlexPlaylists.ipynb` and run cells to start creating/updating playlists
