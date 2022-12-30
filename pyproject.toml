@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "updateplexplaylists"
+version = "0.1.0"
+description = "Updates Plex Playlists by Folder Name"
+authors = ["Johan Boekhoven <johan.boekhoven@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.19.4"
+plexapi = "^4.13.2"
+pyyaml = "^6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
